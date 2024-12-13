@@ -1,11 +1,11 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
+import Navigation from "./navigation";
 import { NextUIProvider } from "@nextui-org/react";
 
 function App() {
    return (
       <NextUIProvider>
-         <HomePage />
+         <Navigation />
       </NextUIProvider>
    );
 }
