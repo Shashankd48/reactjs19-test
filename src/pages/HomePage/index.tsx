@@ -3,7 +3,7 @@ import { Input } from "@nextui-org/react";
 
 const HomePage = () => {
    return (
-      <div className="flex gap-2 flex-col">
+      <div className="flex gap-2 flex-col max-w-[500px]">
          <h2>HomePage</h2>
 
          <Button variant="bordered" color="primary">
